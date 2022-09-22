@@ -19,7 +19,7 @@
             <li><a href="#">Início</a></li>
             <li><a href="#">Sobre Nós</a></li>
             <li><a href="#">Fale Conosco</a></li>
-            <li><a href="Login/SerotoninaLpw - Copia/index.html" id="entrar">Entrar</a></li>
+            <li><a href="../Cadastro-WEB/Cadastro_index.php" id="entrar">Entrar</a></li>
         </ul>  
     </header>    
         
@@ -37,9 +37,9 @@
         <article class="car">    
             <div class="carrossel">
                 <div class="container" id="imagens">
-                  <img src="Carrossel 0.1.png" alt="">
-                  <img src="Carrossel 0.2.png" alt="">
-                  <img src="Carrossel 0.3.png" alt=""> 
+                  <img src="../assets/Carrossel 0.1.png" alt="">
+                  <img src="../assets/Carrossel 0.2.png" alt="">
+                  <img src="../assets/Carrossel 0.3.png" alt=""> 
                 </div>
             </div>
         </article>
@@ -81,7 +81,7 @@
         <article class="faleconosco">
         <!-- IMAGEM -->
         <section class="paragrafo-fale-c">
-        <img id="celular" src="celular.png"/>
+        <img id="celular" src="../assets/celular.png"/>
         </section>
 
         <!-- BLOCO -->
@@ -95,7 +95,7 @@
             <form class="form" method="POST" action="recebe-feedback.php" name="feedback" onsubmit="return validar()">
                 <div class="bloco">
                     <input type="text" value=""  name="nome" placeholder="Nome"  class="mensagem"/>
-                    <input type="email" value="" placeholder="E-mail" class="mensagem"/>
+                    <input type="email" value="" name="email" placeholder="E-mail" class="mensagem"/>
                    
                     <textarea rows="10" cols="40" maxlength="500" placeholder="Escreva aqui" class="caixa-texto" name="mensagem"></textarea>
                     
@@ -111,7 +111,7 @@
          <!-- RODAPÉ -->
   <footer>
       <div class="rodape">
-        <img id="google" src="googlePlay.jpg" />
+        <img id="google" src="../assets/googlePlay.jpg" />
      </div>
    
       <div  class="rodape">
@@ -120,8 +120,8 @@
   
    
     <div class="rodape">
-      <img class="icone" src="insta.png"/>
-      <img class="icone" src="tt.png"/>
+      <img class="icone" src="../assets/insta.png"/>
+      <img class="icone" src="../assets/tt.png"/>
     </div>
     
   

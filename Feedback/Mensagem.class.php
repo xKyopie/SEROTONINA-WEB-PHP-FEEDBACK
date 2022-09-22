@@ -2,10 +2,11 @@
     class Mensagem{
         private $mensagem;
         private $nome;
+        private $email;
 
         public function enviar(){
             echo "<br />";
-            echo "Muito obrigada " . $nome . " sua mensagem foi enviada! ";
+            echo "<strong>Muito obrigada ". $this->nome ." sua mensagem foi enviada! <strong/>";
             echo "<br />";
         }
 
@@ -14,7 +15,7 @@
             $this->nome = $nome;
         }
 
-        public function setMensagem(){
+        public function setMensagem($mensagem){
             $this->mensagem = $mensagem;
         }
 
@@ -22,7 +23,7 @@
            return $this->mensagem;
         }
 
-        public function setNome(){
+        public function setNome($nome){
             $this->nome = $nome;
         }
 
@@ -32,3 +33,4 @@
 
     }
 ?>
+
