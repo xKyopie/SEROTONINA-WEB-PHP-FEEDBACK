@@ -1,0 +1,248 @@
+/* FONTE LETRA */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+html, body {
+    margin:0px;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*MENU*/
+ul.menu{
+  background-color: #000000;
+  text-align: left;
+  padding: 25px; 
+}
+
+ul.menu li{
+  display: inline;
+  padding: 10px 10px 10px 0; 
+}
+
+ul.menu a{
+  color: #ffffffff;
+  text-decoration: none;
+  padding: 25px;
+  font-size: 25px;
+}
+ul.menu a:hover{
+  text-decoration: underline;
+}
+
+#nome{
+  color:#8F80F3; 
+  font-size: 40px; 
+  font-family: 'Darker Grotesque';
+}
+
+#entrar{
+  color:white;
+  border: solid 1px;
+  border-color: white;
+  float: right;
+  border-radius: 10px;
+  font-size: 17px;
+  padding: 15px 25px;
+}
+
+
+/*PARAGRÁFO*/
+#titulo{
+  font-size: 35px;
+  line-height: 72px;  
+  text-align: center;
+}
+
+#texto{
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #2E2E2E;
+}
+
+/*CARROSSEL*/
+*{
+  box-sizing: border-box;
+}
+
+.car{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  padding: 15px;
+}
+
+.carrossel{
+  box-shadow: 2px 2px 4px #00000094;
+  overflow: hidden;
+  width: 755px;
+  height: 350px;
+  border-radius: 15px;
+}
+
+.container{
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+#imagens{
+  object-fit: cover;
+  width: 755px;
+  height: 350px;
+}
+
+
+
+/* SOBRE NÓS */
+.sobre{
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+  padding:50px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  
+}
+
+.caixatexto{
+  width: 30%;
+  display: inline-table;
+  padding:100px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ /* FALE CONOSCO*/
+.faleconosco{ 
+    background-color: #ceb7eb; 
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    padding-top: 250px;
+  }
+  
+  .paragrafo-fale-c{
+    padding: 10px;
+    text-align: left;
+    width: 50%;
+  }
+  
+  #celular{width: 550px;; height: 520px; float: right; padding-right:100px;}
+  
+  
+  #titulo1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center; 
+    font-size:35px;
+  }
+  
+  #titulo2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:45px;
+  }
+  
+  #titulo3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    width: 55%;
+  }
+  
+
+ 
+.bloco{
+    margin:10px;
+    margin-right: 30px;
+    
+  }
+  
+  
+  .enviar{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #222224;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 20px 35px;
+    background: #222224;
+  }
+  
+  .mensagem{
+    padding: 20px 75px 20px 15px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #ffffff;
+    letter-spacing: 0.05em;
+    display: block;
+    margin:15px;
+  
+  }
+
+  /* RODAPÉ */
+  
+  footer{
+    text-align: center;
+    color:white;
+    background-color: #1C1B1F;
+    padding-top:40px;
+    font-size: 20px;
+  }
+  
+  .icone{
+    background-color: #1C1B1F;
+    width: 35px; 
+    display: inline;
+    padding: 10px;
+  }
+  
+  #google{ width: 160px; border-radius: 5px;}
+  
+  .rodape{
+    display: inline-table;
+    padding: 5px;
+    width: 30%;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #D0D0D0;
+  }
+  
+  #rodape-direitos{
+    display: block;
+    padding-bottom: 2px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 15px;
+    color: #D0D0D0;
+  }
+  
+  /* FORMS */
+  input {
+    border: 1px #ccc solid;
+    width: 180px;
+  
+  }
+  
+  small {
+    text-align: center;
+    display: block;
+    color: #f00;
+  }
+  
+  .erro {
+    border: 1px #f00 solid;
+  }
+  
+  .sucesso {
+    border: 1px #ccc solid;
+  }
+
+  .caixa-texto{
+    padding: 20px 75px 20px 15px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #ffffff;
+    letter-spacing: 0.05em;
+    display: block;
+    margin:15px;
+    font-family:'Montserrat', sans-serif; ;
+  }
